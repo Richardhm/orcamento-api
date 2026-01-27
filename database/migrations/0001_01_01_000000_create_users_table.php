@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('uf_preferencia', 2)->nullable(); // Coluna para UF (Estado), limite de 2 caracteres
+            $table->integer('layout_id')->default(1); // Valor padrão para "layout_id"
+            $table->string('folder')->nullable(); // Coluna "folder" pode ser nula
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
