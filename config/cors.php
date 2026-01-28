@@ -33,7 +33,12 @@ return [
     | Substitua localhost:8100 pelo domínio do seu frontend em produção.
     |
     */
-    'allowed_origins' => ['http://localhost:8100'],
+    'allowed_origins' => [
+        'http://localhost:8100',
+        'http://localhost:4173',
+        'https://app.bmsys.com.br',
+        'https://cotafacil.bmsys.com.br',
+    ],
 
     /*
     |--------------------------------------------------------------------------
