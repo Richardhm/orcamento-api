@@ -50,7 +50,10 @@ return [
     | Você pode especificar padrões de origem permitidos (como wildcards).
     |
     */
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => [
+		 '/^http:\/\/localhost:\d+$/',      // ✅ Qualquer porta localhost
+        '/^http:\/\/127\.0\.0\.1:\d+$/',   // ✅ Qualquer porta 127.0.0.1
+	],
 
     /*
     |--------------------------------------------------------------------------
@@ -93,6 +96,6 @@ return [
     | requisições CORS, defina como `true`.
     |
     */
-    'supports_credentials' => false,
+    'supports_credentials' => true,
 
 ];
