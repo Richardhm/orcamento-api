@@ -873,11 +873,9 @@
                                 @if($administradora == "Hapvida" && ($cidade == "Goiânia" || $cidade == "Anápolis"))
                                     21034 |
                                 @endif
-                                @if($corretora == 1)
+                                
                                     COM COPART PARCIAL *
-                                @else
-                                    SEM COPARTICIPAÇÃO *
-                                @endif
+                                
 
                             </td>
                         </tr>

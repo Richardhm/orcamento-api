@@ -1,0 +1,270 @@
+{
+    "1-anapolis": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "1-brasilia": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "1-goiania": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "2-anapolis": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "2-campogrande": [
+        {
+            "id": 15,
+            "nome": "Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 0
+        }
+    ],
+    "2-cuiaba": [
+        {
+            "id": 15,
+            "nome": "Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 0
+        }
+    ],
+    "2-dourados": [
+        {
+            "id": 15,
+            "nome": "Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 0
+        }
+    ],
+    "2-goiania": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "2-rioverde": [
+        {
+            "id": 8,
+            "nome": "Coletivo Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 14,
+            "nome": "Coletivo Total",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 0
+        }
+    ],
+    "2-rondonopolis": [
+        {
+            "id": 15,
+            "nome": "Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 0
+        }
+    ],
+    "2-treslagoas": [
+        {
+            "id": 15,
+            "nome": "Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 0
+        }
+    ],
+    "3-brasilia": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "3-goiania": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "4-anapolis": [
+        {
+            "id": 1,
+            "nome": "Individual",
+            "imagem": "planos/individual.png",
+            "empresarial": 0
+        },
+        {
+            "id": 5,
+            "nome": "Super Simples",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-brasilia": [
+        {
+            "id": 1,
+            "nome": "Individual",
+            "imagem": "planos/individual.png",
+            "empresarial": 0
+        },
+        {
+            "id": 5,
+            "nome": "Super Simples",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-campogrande": [
+        {
+            "id": 10,
+            "nome": "Super Simples - Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 11,
+            "nome": "Super Simples - Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-cuiaba": [
+        {
+            "id": 10,
+            "nome": "Super Simples - Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 11,
+            "nome": "Super Simples - Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-dourados": [
+        {
+            "id": 10,
+            "nome": "Super Simples - Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 11,
+            "nome": "Super Simples - Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-goiania": [
+        {
+            "id": 1,
+            "nome": "Individual",
+            "imagem": "planos/individual.png",
+            "empresarial": 0
+        },
+        {
+            "id": 5,
+            "nome": "Super Simples",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-rioverde": [
+        {
+            "id": 10,
+            "nome": "Super Simples - Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 11,
+            "nome": "Super Simples - Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-rondonopolis": [
+        {
+            "id": 10,
+            "nome": "Super Simples - Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 11,
+            "nome": "Super Simples - Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "4-treslagoas": [
+        {
+            "id": 10,
+            "nome": "Super Simples - Integrado",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        },
+        {
+            "id": 11,
+            "nome": "Super Simples - Pleno",
+            "imagem": "planos/super_simples.png",
+            "empresarial": 1
+        }
+    ],
+    "5-anapolis": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "5-brasilia": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "5-goiania": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ],
+    "6-goiania": [
+        {
+            "id": 3,
+            "nome": "Coletivo por Adesão",
+            "imagem": "planos/Coletivo_Adesao.png",
+            "empresarial": 0
+        }
+    ]
+}

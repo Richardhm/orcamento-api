@@ -748,11 +748,9 @@
                                 @if(!empty($codigo['parcial']))
                                     {{ $codigo['parcial']  }} |
                                 @endif
-                                @if($corretora == 1)
+                                
                                     COM COPART PARCIAL *
-                                @else
-                                    SEM COPARTICIPAÇÃO *
-                                @endif
+                               
 
                             </td>
                         </tr>

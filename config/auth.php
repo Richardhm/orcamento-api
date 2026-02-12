@@ -112,4 +112,17 @@ return [
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Token Lifetime Configuration
+    |--------------------------------------------------------------------------
+    |
+    | This option defines how many hours the authentication token will be
+    | valid. Change this value to control how long users stay logged in.
+    |
+    */
+
+    'token_lifetime_hours' => 5, // MUDE AQUI: 1, 2, 5, 8, 24, etc.
+	
+
 ];

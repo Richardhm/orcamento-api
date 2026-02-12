@@ -49,4 +49,12 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function getImagemUrlAttribute()
+    {
+        return $this->imagem ? asset('storage/' . $this->imagem) : null;
+    }
+
+
+
 }

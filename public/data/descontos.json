@@ -1,0 +1,352 @@
+[
+    {
+        "id": 3,
+        "tabela_origem": "brasilia",
+        "plano_id": 3,
+        "administradora_id": 1,
+        "valor": 8
+    },
+    {
+        "id": 5,
+        "tabela_origem": "brasilia",
+        "plano_id": 5,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tabela_origem": "rioverde",
+        "plano_id": 8,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tabela_origem": "rioverde",
+        "plano_id": 14,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tabela_origem": "rondonopolis",
+        "plano_id": 15,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 9,
+        "tabela_origem": "cuiaba",
+        "plano_id": 15,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 10,
+        "tabela_origem": "treslagoas",
+        "plano_id": 15,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 11,
+        "tabela_origem": "dourados",
+        "plano_id": 15,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 12,
+        "tabela_origem": "campogrande",
+        "plano_id": 15,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 13,
+        "tabela_origem": "anapolis",
+        "plano_id": 3,
+        "administradora_id": 1,
+        "valor": 15
+    },
+    {
+        "id": 14,
+        "tabela_origem": "goiania",
+        "plano_id": 3,
+        "administradora_id": 1,
+        "valor": 15
+    },
+    {
+        "id": 17,
+        "tabela_origem": "anapolis",
+        "plano_id": 5,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 18,
+        "tabela_origem": "goiania",
+        "plano_id": 5,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 19,
+        "tabela_origem": "rioverde",
+        "plano_id": 10,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 20,
+        "tabela_origem": "rioverde",
+        "plano_id": 11,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 22,
+        "tabela_origem": "belem",
+        "plano_id": 1,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 23,
+        "tabela_origem": "maceio",
+        "plano_id": 1,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 27,
+        "tabela_origem": "belohorizonte",
+        "plano_id": 5,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 29,
+        "tabela_origem": "uberlandia",
+        "plano_id": 5,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 30,
+        "tabela_origem": "goiania",
+        "plano_id": 3,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 31,
+        "tabela_origem": "brasilia",
+        "plano_id": 3,
+        "administradora_id": 2,
+        "valor": 10
+    },
+    {
+        "id": 32,
+        "tabela_origem": "anapolis",
+        "plano_id": 3,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 33,
+        "tabela_origem": "campogrande",
+        "plano_id": 18,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 34,
+        "tabela_origem": "dourados",
+        "plano_id": 18,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 35,
+        "tabela_origem": "treslagoas",
+        "plano_id": 18,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 36,
+        "tabela_origem": "rondonopolis",
+        "plano_id": 18,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 37,
+        "tabela_origem": "cuiaba",
+        "plano_id": 18,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 38,
+        "tabela_origem": "goiania",
+        "plano_id": 3,
+        "administradora_id": 6,
+        "valor": 5
+    },
+    {
+        "id": 39,
+        "tabela_origem": "belohorizonte",
+        "plano_id": 16,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 40,
+        "tabela_origem": "brasilia",
+        "plano_id": 3,
+        "administradora_id": 6,
+        "valor": 5
+    },
+    {
+        "id": 41,
+        "tabela_origem": "campogrande",
+        "plano_id": 10,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 43,
+        "tabela_origem": "campogrande",
+        "plano_id": 11,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 44,
+        "tabela_origem": "dourados",
+        "plano_id": 10,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 45,
+        "tabela_origem": "dourados",
+        "plano_id": 11,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 46,
+        "tabela_origem": "treslagoas",
+        "plano_id": 10,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 47,
+        "tabela_origem": "treslagoas",
+        "plano_id": 11,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 48,
+        "tabela_origem": "cuiaba",
+        "plano_id": 10,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 49,
+        "tabela_origem": "cuiaba",
+        "plano_id": 11,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 50,
+        "tabela_origem": "rondonopolis",
+        "plano_id": 11,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 51,
+        "tabela_origem": "rondonopolis",
+        "plano_id": 10,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 53,
+        "tabela_origem": "cuiaba",
+        "plano_id": 4,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 54,
+        "tabela_origem": "treslagoas",
+        "plano_id": 3,
+        "administradora_id": 2,
+        "valor": 15
+    },
+    {
+        "id": 55,
+        "tabela_origem": "goiania",
+        "plano_id": 16,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 56,
+        "tabela_origem": "anapolis",
+        "plano_id": 16,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 57,
+        "tabela_origem": "teresina",
+        "plano_id": 1,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 58,
+        "tabela_origem": "goiania",
+        "plano_id": 1,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 60,
+        "tabela_origem": "anapolis",
+        "plano_id": 1,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 61,
+        "tabela_origem": "brasilia",
+        "plano_id": 1,
+        "administradora_id": 1,
+        "valor": 15
+    },
+    {
+        "id": 62,
+        "tabela_origem": "brasilia",
+        "plano_id": 5,
+        "administradora_id": 4,
+        "valor": 15
+    },
+    {
+        "id": 63,
+        "tabela_origem": "brasilia",
+        "plano_id": 1,
+        "administradora_id": 4,
+        "valor": 15
+    }
+]

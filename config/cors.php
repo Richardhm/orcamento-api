@@ -11,7 +11,7 @@ return [
     | Geralmente, usamos 'api/*' para proteger todas as rotas do prefixo "api".
     |
     */
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie', 'storage/*','fotos_perfil/*','public/*','public/fotos_perfil/*'],
 
     /*
     |--------------------------------------------------------------------------
@@ -36,8 +36,10 @@ return [
     'allowed_origins' => [
         'http://localhost:8100',
         'http://localhost:4173',
+		'http://127.0.0.1:8100',
         'https://app.bmsys.com.br',
         'https://cotafacil.bmsys.com.br',
+		'*'
     ],
 
     /*

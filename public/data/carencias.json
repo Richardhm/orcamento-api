@@ -1,0 +1,3314 @@
+[
+    {
+        "id": 1,
+        "plano_id": 1,
+        "tabela_origem": "anapolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 2,
+        "plano_id": 1,
+        "tabela_origem": "anapolis",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 3,
+        "plano_id": 1,
+        "tabela_origem": "anapolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 4,
+        "plano_id": 1,
+        "tabela_origem": "anapolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 5,
+        "plano_id": 1,
+        "tabela_origem": "anapolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 6,
+        "plano_id": 1,
+        "tabela_origem": "anapolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 7,
+        "plano_id": 1,
+        "tabela_origem": "goiania",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 8,
+        "plano_id": 1,
+        "tabela_origem": "goiania",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 9,
+        "plano_id": 1,
+        "tabela_origem": "goiania",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 10,
+        "plano_id": 1,
+        "tabela_origem": "goiania",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 11,
+        "plano_id": 1,
+        "tabela_origem": "goiania",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 12,
+        "plano_id": 1,
+        "tabela_origem": "goiania",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 13,
+        "plano_id": 3,
+        "tabela_origem": "anapolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 14,
+        "plano_id": 3,
+        "tabela_origem": "anapolis",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 15,
+        "plano_id": 3,
+        "tabela_origem": "anapolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 16,
+        "plano_id": 3,
+        "tabela_origem": "anapolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 17,
+        "plano_id": 3,
+        "tabela_origem": "anapolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 18,
+        "plano_id": 3,
+        "tabela_origem": "anapolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 19,
+        "plano_id": 3,
+        "tabela_origem": "goiania",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 20,
+        "plano_id": 3,
+        "tabela_origem": "goiania",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 21,
+        "plano_id": 3,
+        "tabela_origem": "goiania",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 22,
+        "plano_id": 3,
+        "tabela_origem": "goiania",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 23,
+        "plano_id": 3,
+        "tabela_origem": "goiania",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 24,
+        "plano_id": 3,
+        "tabela_origem": "goiania",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 25,
+        "plano_id": 5,
+        "tabela_origem": "anapolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 26,
+        "plano_id": 5,
+        "tabela_origem": "anapolis",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 27,
+        "plano_id": 5,
+        "tabela_origem": "anapolis",
+        "tempo": 60,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 28,
+        "plano_id": 5,
+        "tabela_origem": "anapolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 29,
+        "plano_id": 5,
+        "tabela_origem": "anapolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 30,
+        "plano_id": 5,
+        "tabela_origem": "anapolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 31,
+        "plano_id": 5,
+        "tabela_origem": "goiania",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 32,
+        "plano_id": 5,
+        "tabela_origem": "goiania",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 33,
+        "plano_id": 5,
+        "tabela_origem": "goiania",
+        "tempo": 60,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 34,
+        "plano_id": 5,
+        "tabela_origem": "goiania",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 35,
+        "plano_id": 5,
+        "tabela_origem": "goiania",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 36,
+        "plano_id": 5,
+        "tabela_origem": "goiania",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 37,
+        "plano_id": 11,
+        "tabela_origem": "campogrande",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 38,
+        "plano_id": 11,
+        "tabela_origem": "campogrande",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 39,
+        "plano_id": 11,
+        "tabela_origem": "campogrande",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 40,
+        "plano_id": 11,
+        "tabela_origem": "campogrande",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 41,
+        "plano_id": 11,
+        "tabela_origem": "campogrande",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 42,
+        "plano_id": 11,
+        "tabela_origem": "campogrande",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 43,
+        "plano_id": 15,
+        "tabela_origem": "campogrande",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 44,
+        "plano_id": 15,
+        "tabela_origem": "campogrande",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 45,
+        "plano_id": 15,
+        "tabela_origem": "campogrande",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 46,
+        "plano_id": 15,
+        "tabela_origem": "campogrande",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 47,
+        "plano_id": 15,
+        "tabela_origem": "campogrande",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 48,
+        "plano_id": 15,
+        "tabela_origem": "campogrande",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 49,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 50,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 51,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 52,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 53,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 54,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 55,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 56,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 57,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 58,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 59,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 60,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 61,
+        "plano_id": 1,
+        "tabela_origem": "brasilia",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 62,
+        "plano_id": 1,
+        "tabela_origem": "brasilia",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 63,
+        "plano_id": 1,
+        "tabela_origem": "brasilia",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 64,
+        "plano_id": 1,
+        "tabela_origem": "brasilia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 65,
+        "plano_id": 1,
+        "tabela_origem": "brasilia",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 66,
+        "plano_id": 1,
+        "tabela_origem": "brasilia",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 67,
+        "plano_id": 5,
+        "tabela_origem": "brasilia",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 68,
+        "plano_id": 5,
+        "tabela_origem": "brasilia",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 69,
+        "plano_id": 5,
+        "tabela_origem": "brasilia",
+        "tempo": 60,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 70,
+        "plano_id": 5,
+        "tabela_origem": "brasilia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 71,
+        "plano_id": 5,
+        "tabela_origem": "brasilia",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 72,
+        "plano_id": 5,
+        "tabela_origem": "brasilia",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 73,
+        "plano_id": 3,
+        "tabela_origem": "brasilia",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 74,
+        "plano_id": 3,
+        "tabela_origem": "brasilia",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 75,
+        "plano_id": 3,
+        "tabela_origem": "brasilia",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 76,
+        "plano_id": 3,
+        "tabela_origem": "brasilia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 77,
+        "plano_id": 3,
+        "tabela_origem": "brasilia",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 78,
+        "plano_id": 3,
+        "tabela_origem": "brasilia",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 79,
+        "plano_id": 10,
+        "tabela_origem": "cuiaba",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 80,
+        "plano_id": 10,
+        "tabela_origem": "cuiaba",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 81,
+        "plano_id": 10,
+        "tabela_origem": "cuiaba",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 82,
+        "plano_id": 10,
+        "tabela_origem": "cuiaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 83,
+        "plano_id": 10,
+        "tabela_origem": "cuiaba",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 84,
+        "plano_id": 10,
+        "tabela_origem": "cuiaba",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 85,
+        "plano_id": 11,
+        "tabela_origem": "cuiaba",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 86,
+        "plano_id": 11,
+        "tabela_origem": "cuiaba",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 87,
+        "plano_id": 11,
+        "tabela_origem": "cuiaba",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 88,
+        "plano_id": 11,
+        "tabela_origem": "cuiaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 89,
+        "plano_id": 11,
+        "tabela_origem": "cuiaba",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 90,
+        "plano_id": 11,
+        "tabela_origem": "cuiaba",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 91,
+        "plano_id": 15,
+        "tabela_origem": "cuiaba",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 92,
+        "plano_id": 15,
+        "tabela_origem": "cuiaba",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 93,
+        "plano_id": 15,
+        "tabela_origem": "cuiaba",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 94,
+        "plano_id": 15,
+        "tabela_origem": "cuiaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 95,
+        "plano_id": 15,
+        "tabela_origem": "cuiaba",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 96,
+        "plano_id": 15,
+        "tabela_origem": "cuiaba",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 97,
+        "plano_id": 15,
+        "tabela_origem": "rondonopolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 98,
+        "plano_id": 15,
+        "tabela_origem": "rondonopolis",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 99,
+        "plano_id": 15,
+        "tabela_origem": "rondonopolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 100,
+        "plano_id": 15,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 101,
+        "plano_id": 15,
+        "tabela_origem": "rondonopolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 102,
+        "plano_id": 15,
+        "tabela_origem": "rondonopolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 103,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 104,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 105,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 106,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 107,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 108,
+        "plano_id": 10,
+        "tabela_origem": "rondonopolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 109,
+        "plano_id": 11,
+        "tabela_origem": "rondonopolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 110,
+        "plano_id": 11,
+        "tabela_origem": "rondonopolis",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 111,
+        "plano_id": 11,
+        "tabela_origem": "rondonopolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 112,
+        "plano_id": 11,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 113,
+        "plano_id": 11,
+        "tabela_origem": "rondonopolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 114,
+        "plano_id": 11,
+        "tabela_origem": "rondonopolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 115,
+        "plano_id": 10,
+        "tabela_origem": "campogrande",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 116,
+        "plano_id": 10,
+        "tabela_origem": "campogrande",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 117,
+        "plano_id": 10,
+        "tabela_origem": "campogrande",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 118,
+        "plano_id": 10,
+        "tabela_origem": "campogrande",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 119,
+        "plano_id": 10,
+        "tabela_origem": "campogrande",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 120,
+        "plano_id": 10,
+        "tabela_origem": "campogrande",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 121,
+        "plano_id": 10,
+        "tabela_origem": "dourados",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 122,
+        "plano_id": 10,
+        "tabela_origem": "dourados",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 123,
+        "plano_id": 10,
+        "tabela_origem": "dourados",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 124,
+        "plano_id": 10,
+        "tabela_origem": "dourados",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 125,
+        "plano_id": 10,
+        "tabela_origem": "dourados",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 126,
+        "plano_id": 10,
+        "tabela_origem": "dourados",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 127,
+        "plano_id": 11,
+        "tabela_origem": "dourados",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 128,
+        "plano_id": 11,
+        "tabela_origem": "dourados",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 129,
+        "plano_id": 11,
+        "tabela_origem": "dourados",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 130,
+        "plano_id": 11,
+        "tabela_origem": "dourados",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 131,
+        "plano_id": 11,
+        "tabela_origem": "dourados",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 132,
+        "plano_id": 11,
+        "tabela_origem": "dourados",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 133,
+        "plano_id": 10,
+        "tabela_origem": "treslagoas",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 134,
+        "plano_id": 10,
+        "tabela_origem": "treslagoas",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 135,
+        "plano_id": 10,
+        "tabela_origem": "treslagoas",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 136,
+        "plano_id": 10,
+        "tabela_origem": "treslagoas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 137,
+        "plano_id": 10,
+        "tabela_origem": "treslagoas",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 138,
+        "plano_id": 10,
+        "tabela_origem": "treslagoas",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 139,
+        "plano_id": 11,
+        "tabela_origem": "treslagoas",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 140,
+        "plano_id": 11,
+        "tabela_origem": "treslagoas",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 141,
+        "plano_id": 11,
+        "tabela_origem": "treslagoas",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 142,
+        "plano_id": 11,
+        "tabela_origem": "treslagoas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 143,
+        "plano_id": 11,
+        "tabela_origem": "treslagoas",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 144,
+        "plano_id": 11,
+        "tabela_origem": "treslagoas",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 145,
+        "plano_id": 15,
+        "tabela_origem": "treslagoas",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 146,
+        "plano_id": 15,
+        "tabela_origem": "treslagoas",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 147,
+        "plano_id": 15,
+        "tabela_origem": "treslagoas",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 148,
+        "plano_id": 15,
+        "tabela_origem": "treslagoas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 149,
+        "plano_id": 15,
+        "tabela_origem": "treslagoas",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 150,
+        "plano_id": 15,
+        "tabela_origem": "treslagoas",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 151,
+        "plano_id": 1,
+        "tabela_origem": "belohorizonte",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 152,
+        "plano_id": 1,
+        "tabela_origem": "belohorizonte",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 153,
+        "plano_id": 1,
+        "tabela_origem": "belohorizonte",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 154,
+        "plano_id": 1,
+        "tabela_origem": "belohorizonte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 155,
+        "plano_id": 1,
+        "tabela_origem": "belohorizonte",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 156,
+        "plano_id": 1,
+        "tabela_origem": "belohorizonte",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 157,
+        "plano_id": 5,
+        "tabela_origem": "belohorizonte",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 158,
+        "plano_id": 5,
+        "tabela_origem": "belohorizonte",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 159,
+        "plano_id": 5,
+        "tabela_origem": "belohorizonte",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 160,
+        "plano_id": 5,
+        "tabela_origem": "belohorizonte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 161,
+        "plano_id": 5,
+        "tabela_origem": "belohorizonte",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 162,
+        "plano_id": 5,
+        "tabela_origem": "belohorizonte",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 163,
+        "plano_id": 1,
+        "tabela_origem": "uberaba",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 164,
+        "plano_id": 1,
+        "tabela_origem": "uberaba",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 165,
+        "plano_id": 1,
+        "tabela_origem": "uberaba",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 166,
+        "plano_id": 1,
+        "tabela_origem": "uberaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 167,
+        "plano_id": 1,
+        "tabela_origem": "uberaba",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 168,
+        "plano_id": 1,
+        "tabela_origem": "uberaba",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 169,
+        "plano_id": 1,
+        "tabela_origem": "fortaleza",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 170,
+        "plano_id": 1,
+        "tabela_origem": "fortaleza",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 171,
+        "plano_id": 1,
+        "tabela_origem": "fortaleza",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 172,
+        "plano_id": 1,
+        "tabela_origem": "fortaleza",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 173,
+        "plano_id": 1,
+        "tabela_origem": "fortaleza",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 174,
+        "plano_id": 1,
+        "tabela_origem": "fortaleza",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 175,
+        "plano_id": 5,
+        "tabela_origem": "fortaleza",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 176,
+        "plano_id": 5,
+        "tabela_origem": "fortaleza",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 177,
+        "plano_id": 5,
+        "tabela_origem": "fortaleza",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 178,
+        "plano_id": 5,
+        "tabela_origem": "fortaleza",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 179,
+        "plano_id": 5,
+        "tabela_origem": "fortaleza",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 180,
+        "plano_id": 5,
+        "tabela_origem": "fortaleza",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 181,
+        "plano_id": 1,
+        "tabela_origem": "belem",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 182,
+        "plano_id": 1,
+        "tabela_origem": "belem",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 183,
+        "plano_id": 1,
+        "tabela_origem": "belem",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 184,
+        "plano_id": 1,
+        "tabela_origem": "belem",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 185,
+        "plano_id": 1,
+        "tabela_origem": "belem",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 186,
+        "plano_id": 1,
+        "tabela_origem": "belem",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 187,
+        "plano_id": 1,
+        "tabela_origem": "parauapebas",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 188,
+        "plano_id": 1,
+        "tabela_origem": "parauapebas",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 189,
+        "plano_id": 1,
+        "tabela_origem": "parauapebas",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 190,
+        "plano_id": 1,
+        "tabela_origem": "parauapebas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 191,
+        "plano_id": 1,
+        "tabela_origem": "parauapebas",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 192,
+        "plano_id": 1,
+        "tabela_origem": "parauapebas",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 193,
+        "plano_id": 1,
+        "tabela_origem": "maceio",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 194,
+        "plano_id": 1,
+        "tabela_origem": "maceio",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 195,
+        "plano_id": 1,
+        "tabela_origem": "maceio",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 196,
+        "plano_id": 1,
+        "tabela_origem": "maceio",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 197,
+        "plano_id": 1,
+        "tabela_origem": "maceio",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 198,
+        "plano_id": 1,
+        "tabela_origem": "maceio",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 199,
+        "plano_id": 1,
+        "tabela_origem": "saoluis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 200,
+        "plano_id": 1,
+        "tabela_origem": "saoluis",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 201,
+        "plano_id": 1,
+        "tabela_origem": "saoluis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 202,
+        "plano_id": 1,
+        "tabela_origem": "saoluis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 203,
+        "plano_id": 1,
+        "tabela_origem": "saoluis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 204,
+        "plano_id": 1,
+        "tabela_origem": "saoluis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 205,
+        "plano_id": 1,
+        "tabela_origem": "aracaju",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 206,
+        "plano_id": 1,
+        "tabela_origem": "aracaju",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 207,
+        "plano_id": 1,
+        "tabela_origem": "aracaju",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 208,
+        "plano_id": 1,
+        "tabela_origem": "aracaju",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 209,
+        "plano_id": 1,
+        "tabela_origem": "aracaju",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 210,
+        "plano_id": 1,
+        "tabela_origem": "aracaju",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 211,
+        "plano_id": 1,
+        "tabela_origem": "joaopessoa",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 212,
+        "plano_id": 1,
+        "tabela_origem": "joaopessoa",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 213,
+        "plano_id": 1,
+        "tabela_origem": "joaopessoa",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 214,
+        "plano_id": 1,
+        "tabela_origem": "joaopessoa",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 215,
+        "plano_id": 1,
+        "tabela_origem": "joaopessoa",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 216,
+        "plano_id": 1,
+        "tabela_origem": "joaopessoa",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 217,
+        "plano_id": 1,
+        "tabela_origem": "manaus",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 218,
+        "plano_id": 1,
+        "tabela_origem": "manaus",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 219,
+        "plano_id": 1,
+        "tabela_origem": "manaus",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 220,
+        "plano_id": 1,
+        "tabela_origem": "manaus",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 221,
+        "plano_id": 1,
+        "tabela_origem": "manaus",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 222,
+        "plano_id": 1,
+        "tabela_origem": "manaus",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 223,
+        "plano_id": 1,
+        "tabela_origem": "teresina",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 224,
+        "plano_id": 1,
+        "tabela_origem": "teresina",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 225,
+        "plano_id": 1,
+        "tabela_origem": "teresina",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 226,
+        "plano_id": 1,
+        "tabela_origem": "teresina",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 227,
+        "plano_id": 1,
+        "tabela_origem": "teresina",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 228,
+        "plano_id": 1,
+        "tabela_origem": "teresina",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 229,
+        "plano_id": 1,
+        "tabela_origem": "mossoro",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 230,
+        "plano_id": 1,
+        "tabela_origem": "mossoro",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 231,
+        "plano_id": 1,
+        "tabela_origem": "mossoro",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 232,
+        "plano_id": 1,
+        "tabela_origem": "mossoro",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 233,
+        "plano_id": 1,
+        "tabela_origem": "mossoro",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 234,
+        "plano_id": 1,
+        "tabela_origem": "mossoro",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 235,
+        "plano_id": 1,
+        "tabela_origem": "natal",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 236,
+        "plano_id": 1,
+        "tabela_origem": "natal",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 237,
+        "plano_id": 1,
+        "tabela_origem": "natal",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 238,
+        "plano_id": 1,
+        "tabela_origem": "natal",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 239,
+        "plano_id": 1,
+        "tabela_origem": "natal",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 240,
+        "plano_id": 1,
+        "tabela_origem": "natal",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 241,
+        "plano_id": 1,
+        "tabela_origem": "recife",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 242,
+        "plano_id": 1,
+        "tabela_origem": "recife",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 243,
+        "plano_id": 1,
+        "tabela_origem": "recife",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 244,
+        "plano_id": 1,
+        "tabela_origem": "recife",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 245,
+        "plano_id": 1,
+        "tabela_origem": "recife",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 246,
+        "plano_id": 1,
+        "tabela_origem": "recife",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 253,
+        "plano_id": 5,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 254,
+        "plano_id": 5,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 255,
+        "plano_id": 5,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 256,
+        "plano_id": 5,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 257,
+        "plano_id": 5,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 258,
+        "plano_id": 5,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 259,
+        "plano_id": 1,
+        "tabela_origem": "uberlandia",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 260,
+        "plano_id": 1,
+        "tabela_origem": "uberlandia",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 261,
+        "plano_id": 1,
+        "tabela_origem": "uberlandia",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 262,
+        "plano_id": 1,
+        "tabela_origem": "uberlandia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 263,
+        "plano_id": 1,
+        "tabela_origem": "uberlandia",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 264,
+        "plano_id": 1,
+        "tabela_origem": "uberlandia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 265,
+        "plano_id": 5,
+        "tabela_origem": "uberlandia",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 266,
+        "plano_id": 5,
+        "tabela_origem": "uberlandia",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 267,
+        "plano_id": 5,
+        "tabela_origem": "uberlandia",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 268,
+        "plano_id": 5,
+        "tabela_origem": "uberlandia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 269,
+        "plano_id": 5,
+        "tabela_origem": "uberlandia",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 270,
+        "plano_id": 5,
+        "tabela_origem": "uberlandia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 271,
+        "plano_id": 10,
+        "tabela_origem": "rioverde",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 272,
+        "plano_id": 10,
+        "tabela_origem": "rioverde",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 273,
+        "plano_id": 10,
+        "tabela_origem": "rioverde",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 274,
+        "plano_id": 10,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 275,
+        "plano_id": 10,
+        "tabela_origem": "rioverde",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 276,
+        "plano_id": 10,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 277,
+        "plano_id": 11,
+        "tabela_origem": "rioverde",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 278,
+        "plano_id": 11,
+        "tabela_origem": "rioverde",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 279,
+        "plano_id": 11,
+        "tabela_origem": "rioverde",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 280,
+        "plano_id": 11,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 281,
+        "plano_id": 11,
+        "tabela_origem": "rioverde",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 282,
+        "plano_id": 11,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 283,
+        "plano_id": 1,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 284,
+        "plano_id": 1,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 285,
+        "plano_id": 1,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 286,
+        "plano_id": 1,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 287,
+        "plano_id": 1,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 288,
+        "plano_id": 1,
+        "tabela_origem": "juazeirodonorte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 289,
+        "plano_id": 5,
+        "tabela_origem": "uberaba",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 290,
+        "plano_id": 5,
+        "tabela_origem": "uberaba",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 291,
+        "plano_id": 5,
+        "tabela_origem": "uberaba",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 292,
+        "plano_id": 5,
+        "tabela_origem": "uberaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 293,
+        "plano_id": 5,
+        "tabela_origem": "uberaba",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 294,
+        "plano_id": 5,
+        "tabela_origem": "uberaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 295,
+        "plano_id": 5,
+        "tabela_origem": "parauapebas",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 296,
+        "plano_id": 5,
+        "tabela_origem": "parauapebas",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 297,
+        "plano_id": 5,
+        "tabela_origem": "parauapebas",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 298,
+        "plano_id": 5,
+        "tabela_origem": "parauapebas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 299,
+        "plano_id": 5,
+        "tabela_origem": "parauapebas",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 300,
+        "plano_id": 5,
+        "tabela_origem": "parauapebas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 301,
+        "plano_id": 5,
+        "tabela_origem": "belem",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 302,
+        "plano_id": 5,
+        "tabela_origem": "belem",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 303,
+        "plano_id": 5,
+        "tabela_origem": "belem",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 304,
+        "plano_id": 5,
+        "tabela_origem": "belem",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 305,
+        "plano_id": 5,
+        "tabela_origem": "belem",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 306,
+        "plano_id": 5,
+        "tabela_origem": "belem",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 307,
+        "plano_id": 8,
+        "tabela_origem": "rioverde",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 308,
+        "plano_id": 8,
+        "tabela_origem": "rioverde",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 309,
+        "plano_id": 8,
+        "tabela_origem": "rioverde",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 310,
+        "plano_id": 8,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 311,
+        "plano_id": 8,
+        "tabela_origem": "rioverde",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 312,
+        "plano_id": 8,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 313,
+        "plano_id": 14,
+        "tabela_origem": "rioverde",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 314,
+        "plano_id": 14,
+        "tabela_origem": "rioverde",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 315,
+        "plano_id": 14,
+        "tabela_origem": "rioverde",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 316,
+        "plano_id": 14,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 317,
+        "plano_id": 14,
+        "tabela_origem": "rioverde",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 318,
+        "plano_id": 14,
+        "tabela_origem": "rioverde",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 319,
+        "plano_id": 16,
+        "tabela_origem": "belohorizonte",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 320,
+        "plano_id": 16,
+        "tabela_origem": "belohorizonte",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 321,
+        "plano_id": 16,
+        "tabela_origem": "belohorizonte",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 322,
+        "plano_id": 16,
+        "tabela_origem": "belohorizonte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 323,
+        "plano_id": 16,
+        "tabela_origem": "belohorizonte",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 324,
+        "plano_id": 16,
+        "tabela_origem": "belohorizonte",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 325,
+        "plano_id": 17,
+        "tabela_origem": "belohorizonte",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 326,
+        "plano_id": 17,
+        "tabela_origem": "belohorizonte",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 327,
+        "plano_id": 17,
+        "tabela_origem": "belohorizonte",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 328,
+        "plano_id": 17,
+        "tabela_origem": "belohorizonte",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 329,
+        "plano_id": 17,
+        "tabela_origem": "belohorizonte",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 330,
+        "plano_id": 17,
+        "tabela_origem": "belohorizonte",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 331,
+        "plano_id": 15,
+        "tabela_origem": "dourados",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 332,
+        "plano_id": 15,
+        "tabela_origem": "dourados",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 333,
+        "plano_id": 15,
+        "tabela_origem": "dourados",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 334,
+        "plano_id": 15,
+        "tabela_origem": "dourados",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 335,
+        "plano_id": 15,
+        "tabela_origem": "dourados",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 336,
+        "plano_id": 15,
+        "tabela_origem": "dourados",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 337,
+        "plano_id": 16,
+        "tabela_origem": "uberlandia",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 338,
+        "plano_id": 16,
+        "tabela_origem": "uberlandia",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 339,
+        "plano_id": 16,
+        "tabela_origem": "uberlandia",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 340,
+        "plano_id": 16,
+        "tabela_origem": "uberlandia",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 341,
+        "plano_id": 16,
+        "tabela_origem": "uberlandia",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 342,
+        "plano_id": 16,
+        "tabela_origem": "uberlandia",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 343,
+        "plano_id": 18,
+        "tabela_origem": "campogrande",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 344,
+        "plano_id": 18,
+        "tabela_origem": "campogrande",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 345,
+        "plano_id": 18,
+        "tabela_origem": "campogrande",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 346,
+        "plano_id": 18,
+        "tabela_origem": "campogrande",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 347,
+        "plano_id": 18,
+        "tabela_origem": "campogrande",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 348,
+        "plano_id": 18,
+        "tabela_origem": "campogrande",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 349,
+        "plano_id": 18,
+        "tabela_origem": "dourados",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 350,
+        "plano_id": 18,
+        "tabela_origem": "dourados",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 351,
+        "plano_id": 18,
+        "tabela_origem": "dourados",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 352,
+        "plano_id": 18,
+        "tabela_origem": "dourados",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 353,
+        "plano_id": 18,
+        "tabela_origem": "dourados",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 354,
+        "plano_id": 18,
+        "tabela_origem": "dourados",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 355,
+        "plano_id": 18,
+        "tabela_origem": "treslagoas",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 356,
+        "plano_id": 18,
+        "tabela_origem": "treslagoas",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 357,
+        "plano_id": 18,
+        "tabela_origem": "treslagoas",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 358,
+        "plano_id": 18,
+        "tabela_origem": "treslagoas",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 359,
+        "plano_id": 18,
+        "tabela_origem": "treslagoas",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 360,
+        "plano_id": 18,
+        "tabela_origem": "treslagoas",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 361,
+        "plano_id": 18,
+        "tabela_origem": "rondonopolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 362,
+        "plano_id": 18,
+        "tabela_origem": "rondonopolis",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 363,
+        "plano_id": 18,
+        "tabela_origem": "rondonopolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 364,
+        "plano_id": 18,
+        "tabela_origem": "rondonopolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 365,
+        "plano_id": 18,
+        "tabela_origem": "rondonopolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 366,
+        "plano_id": 18,
+        "tabela_origem": "rondonopolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 367,
+        "plano_id": 18,
+        "tabela_origem": "cuiaba",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 368,
+        "plano_id": 18,
+        "tabela_origem": "cuiaba",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 369,
+        "plano_id": 18,
+        "tabela_origem": "cuiaba",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 370,
+        "plano_id": 18,
+        "tabela_origem": "cuiaba",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 371,
+        "plano_id": 18,
+        "tabela_origem": "cuiaba",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 372,
+        "plano_id": 18,
+        "tabela_origem": "cuiaba",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 373,
+        "plano_id": 5,
+        "tabela_origem": "maceio",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 374,
+        "plano_id": 5,
+        "tabela_origem": "maceio",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 375,
+        "plano_id": 5,
+        "tabela_origem": "maceio",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 376,
+        "plano_id": 5,
+        "tabela_origem": "maceio",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 377,
+        "plano_id": 5,
+        "tabela_origem": "maceio",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 378,
+        "plano_id": 5,
+        "tabela_origem": "maceio",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 379,
+        "plano_id": 5,
+        "tabela_origem": "mossoro",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 380,
+        "plano_id": 5,
+        "tabela_origem": "mossoro",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 381,
+        "plano_id": 5,
+        "tabela_origem": "mossoro",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 382,
+        "plano_id": 5,
+        "tabela_origem": "mossoro",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 383,
+        "plano_id": 5,
+        "tabela_origem": "mossoro",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 384,
+        "plano_id": 5,
+        "tabela_origem": "mossoro",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 385,
+        "plano_id": 5,
+        "tabela_origem": "natal",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 386,
+        "plano_id": 5,
+        "tabela_origem": "natal",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 387,
+        "plano_id": 5,
+        "tabela_origem": "natal",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 388,
+        "plano_id": 5,
+        "tabela_origem": "natal",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 389,
+        "plano_id": 5,
+        "tabela_origem": "natal",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 390,
+        "plano_id": 5,
+        "tabela_origem": "natal",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 391,
+        "plano_id": 5,
+        "tabela_origem": "manaus",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 392,
+        "plano_id": 5,
+        "tabela_origem": "manaus",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 393,
+        "plano_id": 5,
+        "tabela_origem": "manaus",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 394,
+        "plano_id": 5,
+        "tabela_origem": "manaus",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 395,
+        "plano_id": 5,
+        "tabela_origem": "manaus",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 396,
+        "plano_id": 5,
+        "tabela_origem": "manaus",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 397,
+        "plano_id": 1,
+        "tabela_origem": "camacari",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 398,
+        "plano_id": 1,
+        "tabela_origem": "camacari",
+        "tempo": 30,
+        "detalhe": "Isenção",
+        "frase": null
+    },
+    {
+        "id": 399,
+        "plano_id": 1,
+        "tabela_origem": "camacari",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 400,
+        "plano_id": 1,
+        "tabela_origem": "camacari",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 401,
+        "plano_id": 1,
+        "tabela_origem": "camacari",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 402,
+        "plano_id": 1,
+        "tabela_origem": "camacari",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 403,
+        "plano_id": 5,
+        "tabela_origem": "salvador",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 404,
+        "plano_id": 5,
+        "tabela_origem": "salvador",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 405,
+        "plano_id": 5,
+        "tabela_origem": "salvador",
+        "tempo": 60,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 406,
+        "plano_id": 5,
+        "tabela_origem": "salvador",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 407,
+        "plano_id": 5,
+        "tabela_origem": "salvador",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 408,
+        "plano_id": 5,
+        "tabela_origem": "salvador",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 409,
+        "plano_id": 16,
+        "tabela_origem": "goiania",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 410,
+        "plano_id": 16,
+        "tabela_origem": "goiania",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 411,
+        "plano_id": 16,
+        "tabela_origem": "goiania",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 412,
+        "plano_id": 16,
+        "tabela_origem": "goiania",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 413,
+        "plano_id": 16,
+        "tabela_origem": "goiania",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 414,
+        "plano_id": 16,
+        "tabela_origem": "goiania",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 415,
+        "plano_id": 16,
+        "tabela_origem": "anapolis",
+        "tempo": 24,
+        "detalhe": "Hr.",
+        "frase": null
+    },
+    {
+        "id": 416,
+        "plano_id": 16,
+        "tabela_origem": "anapolis",
+        "tempo": 30,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 417,
+        "plano_id": 16,
+        "tabela_origem": "anapolis",
+        "tempo": 90,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 418,
+        "plano_id": 16,
+        "tabela_origem": "anapolis",
+        "tempo": 180,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 419,
+        "plano_id": 16,
+        "tabela_origem": "anapolis",
+        "tempo": 300,
+        "detalhe": "Dias",
+        "frase": null
+    },
+    {
+        "id": 420,
+        "plano_id": 16,
+        "tabela_origem": "anapolis",
+        "tempo": 720,
+        "detalhe": "Dias",
+        "frase": null
+    }
+]

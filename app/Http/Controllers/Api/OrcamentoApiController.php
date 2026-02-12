@@ -278,6 +278,272 @@ class OrcamentoApiController extends Controller
         }
     }
 
+    public function criarDocumentoV2(Request $request)
+    {
+            try {
+                // Receber dados já processados do frontend
+                $dadosProcessados = $request->input('dados_processados');
+                $tipoDocumento = $request->input('tipo_documento');
+                
+                // Dados básicos para buscar informações complementares
+                $cidade = $request->input('tabela_origem');
+                $plano = $request->input('plano');
+                $operadora = $request->input('operadora');
+                $odonto = $request->input('odonto');
+                $ambulatorial = $request->input('ambulatorial');
+        
+                // Opções do formulário
+                $comCoparticipacao = $request->input('comcoparticipacao');
+                $semCoparticipacao = $request->input('semcoparticipacao');
+                $apenasValores = $request->input('apenasvalores');
+                $statusCarencia = $request->input('status_carencia');
+                $statusDesconto = $request->input('status_desconto');
+
+                // Buscar informações complementares (nomes, etc.)
+                $cidadeNome = TabelaOrigens::find($cidade)->nome ?? 'N/A';
+                $planoNome = Plano::find($plano)->nome ?? 'N/A';
+                $cidadeUf = TabelaOrigens::find($cidade)->uf ?? '';
+                $adminNome = Administradora::find($operadora)->nome ?? 'N/A';
+
+                // Configurações
+                
+                $frase = $planoNome . ($odonto ? " c/ Odonto" : " s/ Odonto");
+                if ($ambulatorial) {
+                    $frase .= " - Ambulatorial";
+                }
+
+                // CONVERTER DADOS PROCESSADOS PARA O FORMATO QUE A BLADE ESPERA
+                $dados = $this->converterDadosParaBlade($dadosProcessados, $cidade, $plano, $operadora, $odonto, $ambulatorial);
+
+                // Calcular totais e linhas como a blade espera
+                $linhas = count($dadosProcessados['dados_tabela']);
+                $somarLinhas = array_sum(array_values($dadosProcessados['faixas_originais'][0]));
+
+                // Buscar dados complementares (carências, descontos, etc.)
+                $carencia = Carencia::where("plano_id", $plano)->where("tabela_origens_id", $cidade)->get();
+                $quantidadeCarencia = Carencia::where("plano_id", $plano)->where("tabela_origens_id", $cidade)->count();
+
+                // Processar desconto
+                $valorDesconto = 0;
+                if ($statusDesconto) {
+                    $desconto = Desconto::where('plano_id', $plano)
+                        ->where('tabela_origens_id', $cidade)
+                        ->where('administradora_id', $operadora)
+                        ->first();
+                    if ($desconto) {
+                        $valorDesconto = $desconto->valor;
+                    }
+                }
+
+                // Processar PDFs/Coparticipação
+                $quantidadeCop = 0;
+                $pdfCopar = null;
+                $linha01 = '';
+                $linha02 = '';
+        
+                if (!$apenasValores) {
+                    $pdfExcecao = PdfExcecao::where("plano_id", $plano)->where("tabela_origens_id", $cidade)->count();
+                    if ($pdfExcecao == 1) {
+                        $pdfCopar = PdfExcecao::where("plano_id", $plano)->where("tabela_origens_id", $cidade)->first();
+                        $quantidadeCop = 1;
+                    } else {
+                        $hasTabelaOrigens = Pdf::where('plano_id', $plano)->where('tabela_origens_id', $cidade)->exists();
+                        if ($hasTabelaOrigens) {
+                            $quantidadeCop = 1;
+                            $pdfCopar = Pdf::where('plano_id', $plano)->where('tabela_origens_id', $cidade)->first();
+                        } else {
+                            $pdfCopar = Pdf::where('plano_id', $plano)->first();
+                        }
+
+                        if (isset($pdfCopar->linha02) && $pdfCopar->linha02) {
+                            $quantidadeCop = 1;
+                            $itens = explode('|', $pdfCopar->linha02);
+                            $itensFormatados = array_map('trim', $itens);
+                            $linha01 = $itensFormatados[0] ?? '';
+                            $linha02 = $itensFormatados[1] ?? '';
+                        }
+                    }
+                }
+
+                $layout = auth()->user()->layout_id;    
+                
+
+
+                // ESCOLHER A VIEW CORRETA BASEADO NO TIPO
+                if ($ambulatorial) {
+                    $viewName = "cotacao.cotacao-ambulatorial".$layout; // View específica para ambulatorial
+                } else {
+                    $viewName = "cotacao.modelo".$layout."-mobile";
+                }
+
+                // Renderizar view com dados formatados como esperado
+                $view = \Illuminate\Support\Facades\View::make($viewName, [
+                    // DADOS PRINCIPAIS - formatados como a blade espera
+                    'dados' => $dados,
+                    
+                    // Informações básicas
+                    'frase' => $frase,
+                    'cidade' => $cidadeNome,
+                    'plano_nome' => $planoNome,
+                    'administradora' => $adminNome,
+                    'linhas' => $linhas,
+                    
+                    // Opções do formulário
+                    'com_coparticipacao' => $comCoparticipacao,
+                    'sem_coparticipacao' => $semCoparticipacao,
+                    'apenasvalores' => $apenasValores,
+                    'odonto' => $odonto,
+                    'ambulatorial' => $ambulatorial,
+                    
+                    // Dados complementares
+                    'linha_01' => $linha01,
+                    'linha_02' => $linha02,
+                    'pdf' => $pdfCopar,
+                    'valor_desconto' => $valorDesconto,
+                    'desconto' => $statusDesconto,
+                    'quantidade_carencia' => $quantidadeCarencia,
+                    'carencia_texto' => $carencia,
+                    'carencia' => $statusCarencia,
+                    'quantidade_copar' => $quantidadeCop,
+                    
+                    // Dados do usuário
+                    'nome' => "Richard",
+                    'celular' => "62 9 9358-1475",
+                    'image' => "users/1740672587_Foto0079.jpg",
+                    'status_excecao' => false,
+                ])->render();
+
+                // Gerar arquivo
+                $nomeArquivo = "orcamento_" . now()->format('d_m_Y_H_i_s') . "_" . uniqid();
+
+                if ($tipoDocumento === 'pdf') {
+                    $pdf = PDFFile::loadHTML($view)->setPaper('A3', 'portrait');
+                    return $pdf->download("{$nomeArquivo}.pdf");
+                } elseif ($tipoDocumento === 'png') {
+                    $pdfPath = storage_path("app/temp/{$nomeArquivo}.pdf");
+                    $pngPath = storage_path("app/temp/{$nomeArquivo}.png");
+
+                    PDFFile::loadHTML($view)->setPaper('A3', 'portrait')->save($pdfPath);
+
+                    $command = "gs -sDEVICE=pngalpha -r300 -o {$pngPath} {$pdfPath}";
+                    exec($command, $output, $return_var);
+
+                    if ($return_var !== 0 || !file_exists($pngPath)) {
+                        return response()->json(['error' => 'Erro ao gerar a imagem.'], 500);
+                    }
+
+                    return response()->download($pngPath)->deleteFileAfterSend(true);
+                }
+
+                return response()->json(['error' => 'Tipo de documento inválido.'], 400);
+
+            } catch (\Exception $e) {
+                return response()->json(['error' => 'Erro interno: ' . $e->getMessage()], 500);
+            }
+        }
+
+
+
+
+
+
+
+
+
+   
+
+/**
+ * Converte os dados processados do frontend para o formato que a blade espera
+ */
+private function converterDadosParaBlade($dadosProcessados, $cidade, $plano, $operadora, $odonto, $ambulatorial = false)
+{
+    $dados = collect();
+    
+    foreach ($dadosProcessados['dados_tabela'] as $linha) {
+        if ($ambulatorial) {
+            // LÓGICA ESPECÍFICA PARA AMBULATORIAL
+            // A blade ambulatorial espera acomodacao_id = 3
+            
+            // Com coparticipação
+            if (isset($linha['com_copar']) && $linha['com_copar'] !== null) {
+                $dados->push((object)[
+                    'faixaEtaria' => (object)['nome' => $linha['faixa_etaria_nome']],
+                    'acomodacao_id' => 3, // Ambulatorial sempre é 3
+                    'valor' => $linha['com_copar'],
+                    'odonto' => $odonto,
+                    'coparticipacao' => 1, // Com coparticipação
+                    'quantidade' => 1
+                ]);
+            }
+            
+            // Sem coparticipação
+            if (isset($linha['sem_copar']) && $linha['sem_copar'] !== null) {
+                $dados->push((object)[
+                    'faixaEtaria' => (object)['nome' => $linha['faixa_etaria_nome']],
+                    'acomodacao_id' => 3, // Ambulatorial sempre é 3
+                    'valor' => $linha['sem_copar'],
+                    'odonto' => $odonto,
+                    'coparticipacao' => 0, // Sem coparticipação
+                    'quantidade' => 1
+                ]);
+            }
+        } else {
+            
+            
+            // Apartamento com coparticipação
+            if (isset($linha['com_copart_apart']) && $linha['com_copart_apart'] !== null) {
+                $dados->push((object)[
+                    'faixaEtaria' => (object)['nome' => $linha['faixa_etaria_nome']],
+                    'acomodacao_id' => 1, // Apartamento
+                    'valor' => $linha['com_copart_apart'],
+                    'odonto' => $odonto,
+                    'coparticipacao' => 1,
+                    'quantidade' => 1
+                ]);
+            }
+            
+            // Enfermaria com coparticipação
+            if (isset($linha['com_copart_enfer']) && $linha['com_copart_enfer'] !== null) {
+                $dados->push((object)[
+                    'faixaEtaria' => (object)['nome' => $linha['faixa_etaria_nome']],
+                    'acomodacao_id' => 2, // Enfermaria
+                    'valor' => $linha['com_copart_enfer'],
+                    'odonto' => $odonto,
+                    'coparticipacao' => 1,
+                    'quantidade' => 1
+                ]);
+            }
+            
+            // Apartamento sem coparticipação
+            if (isset($linha['sem_copart_apart']) && $linha['sem_copart_apart'] !== null) {
+                $dados->push((object)[
+                    'faixaEtaria' => (object)['nome' => $linha['faixa_etaria_nome']],
+                    'acomodacao_id' => 1, // Apartamento
+                    'valor' => $linha['sem_copart_apart'],
+                    'odonto' => $odonto,
+                    'coparticipacao' => 0,
+                    'quantidade' => 1
+                ]);
+            }
+            
+            // Enfermaria sem coparticipação
+            if (isset($linha['sem_copart_enfer']) && $linha['sem_copart_enfer'] !== null) {
+                $dados->push((object)[
+                    'faixaEtaria' => (object)['nome' => $linha['faixa_etaria_nome']],
+                    'acomodacao_id' => 2, // Enfermaria
+                    'valor' => $linha['sem_copart_enfer'],
+                    'odonto' => $odonto,
+                    'coparticipacao' => 0,
+                    'quantidade' => 1
+                ]);
+            }
+        }
+    }
+    
+    return $dados;
+}
+
+
 
 
 
@@ -533,13 +799,8 @@ class OrcamentoApiController extends Controller
 
     public function filtrarAdministradora(Request $request)
     {
-        //return  response()->json($request->all());
-
-
         $cidade = $request->cidade_id;
-	   //return "Olaaaaaaaaaaaaaaaaaaaaaaaa";
-
-        $administradoraIds = DB::table('tabelas')
+	    $administradoraIds = DB::table('tabelas')
             ->select('administradora_id')
             ->where('tabela_origens_id', $cidade)
             ->where("administradora_id","!=",5)

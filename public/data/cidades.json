@@ -1,0 +1,221 @@
+{
+    "AL": [
+        {
+            "id": 19,
+            "nome": "Maceió",
+            "apelido": "maceio"
+        }
+    ],
+    "AM": [
+        {
+            "id": 23,
+            "nome": "Manaus",
+            "apelido": "manaus"
+        }
+    ],
+    "BA": [
+        {
+            "id": 10,
+            "nome": "Bahia",
+            "apelido": "bahia"
+        },
+        {
+            "id": 28,
+            "nome": "Camaçari",
+            "apelido": "camacari"
+        },
+        {
+            "id": 29,
+            "nome": "Feira de Santana",
+            "apelido": "feiradesantana"
+        },
+        {
+            "id": 30,
+            "nome": "Salvador",
+            "apelido": "salvador"
+        }
+    ],
+    "CE": [
+        {
+            "id": 15,
+            "nome": "Fortaleza",
+            "apelido": "fortaleza"
+        },
+        {
+            "id": 16,
+            "nome": "Juazeiro do Norte",
+            "apelido": "juazeirodonorte"
+        }
+    ],
+    "DF": [
+        {
+            "id": 8,
+            "nome": "Brasília",
+            "apelido": "brasilia"
+        }
+    ],
+    "GO": [
+        {
+            "id": 1,
+            "nome": "Anápolis",
+            "apelido": "anapolis"
+        },
+        {
+            "id": 2,
+            "nome": "Goiânia",
+            "apelido": "goiania"
+        },
+        {
+            "id": 9,
+            "nome": "Rio Verde",
+            "apelido": "rioverde"
+        }
+    ],
+    "MA": [
+        {
+            "id": 20,
+            "nome": "São Luís",
+            "apelido": "saoluis"
+        }
+    ],
+    "MG": [
+        {
+            "id": 13,
+            "nome": "Belo Horizonte",
+            "apelido": "belohorizonte"
+        },
+        {
+            "id": 14,
+            "nome": "Uberaba",
+            "apelido": "uberaba"
+        },
+        {
+            "id": 12,
+            "nome": "Uberlândia",
+            "apelido": "uberlandia"
+        }
+    ],
+    "MS": [
+        {
+            "id": 7,
+            "nome": "Campo Grande",
+            "apelido": "campogrande"
+        },
+        {
+            "id": 6,
+            "nome": "Dourados",
+            "apelido": "dourados"
+        },
+        {
+            "id": 5,
+            "nome": "Três Lagoas",
+            "apelido": "treslagoas"
+        }
+    ],
+    "MT": [
+        {
+            "id": 4,
+            "nome": "Cuiabá",
+            "apelido": "cuiaba"
+        },
+        {
+            "id": 3,
+            "nome": "Rondonópolis",
+            "apelido": "rondonopolis"
+        }
+    ],
+    "PA": [
+        {
+            "id": 17,
+            "nome": "Belém",
+            "apelido": "belem"
+        },
+        {
+            "id": 18,
+            "nome": "Parauapebas",
+            "apelido": "parauapebas"
+        }
+    ],
+    "PB": [
+        {
+            "id": 22,
+            "nome": "João Pessoa",
+            "apelido": "joaopessoa"
+        }
+    ],
+    "PE": [
+        {
+            "id": 27,
+            "nome": "Recife",
+            "apelido": "recife"
+        }
+    ],
+    "PI": [
+        {
+            "id": 24,
+            "nome": "Teresina",
+            "apelido": "teresina"
+        }
+    ],
+    "RN": [
+        {
+            "id": 26,
+            "nome": "Mossoró",
+            "apelido": "mossoro"
+        },
+        {
+            "id": 25,
+            "nome": "Natal",
+            "apelido": "natal"
+        }
+    ],
+    "SE": [
+        {
+            "id": 21,
+            "nome": "Aracaju",
+            "apelido": "aracaju"
+        }
+    ],
+    "SP": [
+        {
+            "id": 31,
+            "nome": "Araraquara",
+            "apelido": "araraquara"
+        },
+        {
+            "id": 32,
+            "nome": "Barretos",
+            "apelido": "barretos"
+        },
+        {
+            "id": 33,
+            "nome": "Bauru",
+            "apelido": "bauru"
+        },
+        {
+            "id": 34,
+            "nome": "Franca",
+            "apelido": "franca"
+        },
+        {
+            "id": 35,
+            "nome": "Jaboticabal",
+            "apelido": "jaboticabal"
+        },
+        {
+            "id": 36,
+            "nome": "Limeira",
+            "apelido": "limeira"
+        },
+        {
+            "id": 37,
+            "nome": "Lins",
+            "apelido": "lins"
+        },
+        {
+            "id": 38,
+            "nome": "Marilia",
+            "apelido": "marilia"
+        }
+    ]
+}
